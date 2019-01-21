@@ -1,0 +1,264 @@
+﻿@model Optimization.Models.OptimizationModel
+@{
+    ViewBag.Title = "Home Page";
+    var model = Model;
+}
+
+<br />
+<br />
+
+<h2>@ViewBag.MessageResult</h2>
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <table class="tableizer-table" id="furnances_table">
+        <thead>
+            <tr class="tableizer-firstrow">
+                <th>Технологический параметр, ед. изм.</th>
+                <th>Доменные печи</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&nbsp;</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @(f.FurnanceId + 1)
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Расход природного газа в базовом периоде, м3/ч</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].GasExpenseBasePeriod, null, new { @class = "form-control" })
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Минимально допустимый расход природного газа, м3/ч</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].MinGasExpense, null, new { @class = "form-control" })
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Максимально допустимый расход природного газа, м3/ч</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].MaxGasExpense, null, new { @class = "form-control" })
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Расход кокса в базовом периоде, т/час</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].CoxExpenseBasePeriod, null, new { @class = "form-control" })
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Эквивалент замены кокса в базовом периоде, кг кокса /(м3 ПГ)</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].CoxReplacementEquivalent, null, new { @class = "form-control" })
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Производительность по чугуну в базовом периоде, т /ч</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].IronPerformance, null, new { @class = "form-control" })
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Теоретическая температура горения в базовом периоде, °С</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].TheoreticTemperatureBasePeriod, null, new { @class = "form-control" })
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Минимально допустимая теоретическая температура горения, °С</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].MinTemperature, null, new { @class = "form-control" })
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Максимально допустимая теоретическая температура горения, °С</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].MaxTemperature, null, new { @class = "form-control" })
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Расход ПГ</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @f.GasExpenseToReadjust
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Коэффициенты</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Изменение производства чугуна при изменении ПГ, т чуг/(м3 ПГ)</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].DeltaIronPerformanceGasChanged, null, new { @class = "form-control", })
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Изменение производства чугуна при увеличении расхода кокса, т чуг/(кг кокса)</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].DeltaIronPerformanceCoxChanged, null, new { @class = "form-control", })
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Изменение температуры горения при увеличении расхода ПГ на 1 м3/ч</td>
+                @for (var index = 0; index < Model.Furnaces.Count; index++)
+                {
+                    var f = Model.Furnaces[index];
+                    <td>
+                        @Html.EditorFor(m => m.Furnaces[index].DeltaTemperatureGasChanged, null, new { @class = "form-control", })
+                    </td>
+                }
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <br />
+    <br />
+
+    <table class="tableizer-table" id="parameters_table">
+        <thead>
+            <tr class="tableizer-firstrow">
+                <th>Наименование показателя, ед. изм.</th>
+                <th>Величина</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Стоимость кокса, руб/(кг кокса)</td>
+                <td>@Html.EditorFor(m => m.CoxCost, new { @class = "form-control" })</td>
+            </tr>
+            <tr>
+                <td>Стоимость природного газа, руб/(м3 ПГ)</td>
+                <td>@Html.EditorFor(m => m.GasCost, new { @class = "form-control" })</td>
+
+            </tr>
+            <tr>
+                <td>Резерв по расходу природного газа в целом по цеху, м3/ч </td>
+                <td>@Html.EditorFor(m => m.GasSupply, new { @class = "form-control" })</td>
+
+            </tr>
+            <tr>
+                <td>Запасы кокса по цеху, т/ч</td>
+                <td>@Html.EditorFor(m => m.CoxSupply, new { @class = "form-control" })</td>
+
+            </tr>
+            <tr>
+                <td>Требуемое производство чугуна в цехе, т/ч</td>
+                <td>@Html.EditorFor(m => m.RequiredIronPerformance, new { @class = "form-control" })</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <br />
+    <input type="submit" value="Рассчитать" />
+}
+<p>
+    
+    @ViewBag.ReportToString
+</p>
+
+
+
+
+<style type="text/css">
+    table.tableizer-table {
+        font-size: 12px;
+        border: 1px solid #CCC;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tableizer-table td {
+        padding: 4px;
+        margin: 3px;
+        border: 1px solid #CCC;
+        height: 20px;
+    }
+
+    .tableizer-table input {
+       
+        width: 45px !important;
+    }
+
+    .tableizer-table th {
+        background-color: #0B8B2F;
+        color: #FFF;
+        font-weight: bold;
+    }
+</style>
+
+
+<script>
+    var furnances_table = $("#furnances_table");
+</script>
+

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42861973-4c4c-41f7-ab33-cf812b529541" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Optimization/Controllers/HomeController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4928">
+              <caret line="316" column="64" selection-start-line="316" selection-start-column="64" selection-end-line="316" selection-end-column="64" />
+              <folding>
+                <marker date="1548022560421" expanded="false" signature="6:186" ph="..." />
+                <marker date="1548022560421" expanded="true" signature="222:14210" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="269:14208" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="329:809" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="463:694" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="888:974" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="1011:1127" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="1166:1266" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="1324:7269" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="1387:2063" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="2130:2799" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="2866:3526" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="3593:4252" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="4319:4976" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="5043:5699" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="5766:6426" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="6481:7138" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="7196:7258" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="7355:14193" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="11830:12243" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="12503:12763" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="12945:13137" ph="{...}" />
+                <marker date="1548022560421" expanded="true" signature="14003:14142" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Optimization/Controllers/OptimizationController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <marker date="1548089460330" expanded="false" signature="6:225" ph="..." />
+                <marker date="1548089460330" expanded="true" signature="261:14082" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="316:14080" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="387:1014" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="521:752" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="868:972" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="1093:1377" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="1210:1302" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="1458:8151" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="5800:6213" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="6461:6721" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="6903:7095" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="7963:8102" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="8209:14073" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="8272:8932" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="8987:9657" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="9712:10373" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="10428:11087" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="11142:11801" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="11856:12514" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="12569:13229" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="13284:13942" ph="{...}" />
+                <marker date="1548089460330" expanded="true" signature="14000:14062" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/5d/7182ff2e/Report.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="686">
+              <caret line="452" column="14" selection-start-line="452" selection-start-column="8" selection-end-line="452" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/ae/483d8a31/Solution.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2400">
+              <caret line="155" column="67" selection-start-line="155" selection-start-column="67" selection-end-line="155" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/96/2690dc05/SolverContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17584">
+              <caret line="1112" column="43" selection-start-line="1112" selection-start-column="43" selection-end-line="1112" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/cb/1ca1f8ef/SolutionMapping.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2944">
+              <caret line="187" selection-start-line="187" selection-end-line="187" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Optimization.sln">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Optimization/Optimization.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Optimization/Models/OptimizationModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="40" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <marker date="1547993567752" expanded="true" signature="64:1135" ph="{...}" />
+                <marker date="1547993567752" expanded="true" signature="101:1133" ph="{...}" />
+                <marker date="1547993567752" expanded="true" signature="116:186" ph="/// Список доменных печей ... " />
+                <marker date="1547993567752" expanded="true" signature="253:333" ph="/// Стоимость кокса, руб/(кг кокса) ... " />
+                <marker date="1547993567752" expanded="true" signature="387:474" ph="/// Стоимость природного газа, руб/(м3 ПГ) ... " />
+                <marker date="1547993567752" expanded="true" signature="528:633" ph="/// Резерв по расходу природного газа в целом по цеху, м3/ч  ... " />
+                <marker date="1547993567752" expanded="true" signature="686:760" ph="/// Запасы кокса по цеху, т/ч ... " />
+                <marker date="1547993567752" expanded="true" signature="813:903" ph="/// Требуемое производство чугуна в цехе, т/ч ... " />
+                <marker date="1547993567752" expanded="true" signature="970:1070" ph="/// Результат оптимизации. Рассчитанная целевая функция ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Optimization/Models/BlastFurnace.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <marker date="1547989576780" expanded="true" signature="147:242" ph="/// Расход природного газа в базовом периоде, м3/ч ... " />
+                <marker date="1547989576780" expanded="true" signature="309:408" ph="/// Минимально допустимый расход природного газа, м3/ч ... " />
+                <marker date="1547989576780" expanded="true" signature="476:576" ph="/// Максимально допустимый расход природного газа, м3/ч ... " />
+                <marker date="1547989576780" expanded="true" signature="636:722" ph="/// Расход кокса в базовом периоде, т/час ... " />
+                <marker date="1547989576780" expanded="true" signature="789:898" ph="/// Эквивалент замены кокса в базовом периоде, кг кокса /(м3 ПГ) ... " />
+                <marker date="1547989576780" expanded="true" signature="969:1070" ph="/// Производительность по чугуну в базовом периоде, т /ч ... " />
+                <marker date="1547989576780" expanded="true" signature="1132:1236" ph="/// Теоретическая температура горения в базовом периоде, °С ... " />
+                <marker date="1547989576780" expanded="true" signature="1318:1426" ph="/// Минимально допустимая теоретическая температура горения, °С ... " />
+                <marker date="1547989576780" expanded="true" signature="1486:1595" ph="/// Максимально допустимая теоретическая температура горения, °С ... " />
+                <marker date="1547989576780" expanded="true" signature="1656:1742" ph="/// РАсход газа. Его необходимо подбирать ... " />
+                <marker date="1547989576780" expanded="true" signature="1809:1919" ph="/// Изменение производства чугуна при изменении ПГ, т чуг/(м3 ПГ) ... " />
+                <marker date="1547989576780" expanded="true" signature="2004:2129" ph="/// Изменение производства чугуна при увеличении расхода кокса, т чуг/(кг кокса) ... " />
+                <marker date="1547989576780" expanded="true" signature="2206:2320" ph="/// Изменение температуры горения при увеличении расхода ПГ на 1 м3/ч ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/96/2690dc05/SolverContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Optimization/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/cb/1ca1f8ef/SolutionMapping.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Optimization/Models/OptimizationModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Optimization/Controllers/OptimizationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Optimization/Models/BlastFurnace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/5d/7182ff2e/Report.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/ae/483d8a31/Solution.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Optimization/Models/OptimizationModel.cs" />
+        <option value="$PROJECT_DIR$/Optimization/Models/BlastFurnace.cs" />
+        <option value="$PROJECT_DIR$/Optimization/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Optimization/Controllers/OptimizationController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Optimization" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Optimization" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Optimization" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Optimization" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Optimization" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="C:/Program Files (x86)/IIS Express/iisexpress.exe" />
+      <option name="PROGRAM_PARAMETERS" value="/config:$PROJECT_DIR$/.idea/config/applicationhost.config /site:Optimization /apppool:Clr4IntegratedAppPool" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files (x86)/IIS Express" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Optimization/Optimization.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Web" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <browser url="http://localhost:5000/" start="true" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42861973-4c4c-41f7-ab33-cf812b529541" name="Default Changelist" comment="" />
+      <created>1545679510464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545679510464</updated>
+      <workItem from="1545679513160" duration="11622000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11622000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26028278" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39838493" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3257066" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="REST Client" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.13434453" />
+      <window_info anchor="bottom" id="Performance Profiler" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/a2/009005c5/Parameter.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/ae/483d8a31/Solution.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="155" column="67" selection-start-line="155" selection-start-column="67" selection-end-line="155" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/96/2690dc05/SolverContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17584">
+          <caret line="1112" column="43" selection-start-line="1112" selection-start-column="43" selection-end-line="1112" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/cb/1ca1f8ef/SolutionMapping.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2944">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimization.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimization/Optimization.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimization/Models/OptimizationModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="40" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <marker date="1547993567752" expanded="true" signature="64:1135" ph="{...}" />
+            <marker date="1547993567752" expanded="true" signature="101:1133" ph="{...}" />
+            <marker date="1547993567752" expanded="true" signature="116:186" ph="/// Список доменных печей ... " />
+            <marker date="1547993567752" expanded="true" signature="253:333" ph="/// Стоимость кокса, руб/(кг кокса) ... " />
+            <marker date="1547993567752" expanded="true" signature="387:474" ph="/// Стоимость природного газа, руб/(м3 ПГ) ... " />
+            <marker date="1547993567752" expanded="true" signature="528:633" ph="/// Резерв по расходу природного газа в целом по цеху, м3/ч  ... " />
+            <marker date="1547993567752" expanded="true" signature="686:760" ph="/// Запасы кокса по цеху, т/ч ... " />
+            <marker date="1547993567752" expanded="true" signature="813:903" ph="/// Требуемое производство чугуна в цехе, т/ч ... " />
+            <marker date="1547993567752" expanded="true" signature="970:1070" ph="/// Результат оптимизации. Рассчитанная целевая функция ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimization/Models/BlastFurnace.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <marker date="1547989576780" expanded="true" signature="147:242" ph="/// Расход природного газа в базовом периоде, м3/ч ... " />
+            <marker date="1547989576780" expanded="true" signature="309:408" ph="/// Минимально допустимый расход природного газа, м3/ч ... " />
+            <marker date="1547989576780" expanded="true" signature="476:576" ph="/// Максимально допустимый расход природного газа, м3/ч ... " />
+            <marker date="1547989576780" expanded="true" signature="636:722" ph="/// Расход кокса в базовом периоде, т/час ... " />
+            <marker date="1547989576780" expanded="true" signature="789:898" ph="/// Эквивалент замены кокса в базовом периоде, кг кокса /(м3 ПГ) ... " />
+            <marker date="1547989576780" expanded="true" signature="969:1070" ph="/// Производительность по чугуну в базовом периоде, т /ч ... " />
+            <marker date="1547989576780" expanded="true" signature="1132:1236" ph="/// Теоретическая температура горения в базовом периоде, °С ... " />
+            <marker date="1547989576780" expanded="true" signature="1318:1426" ph="/// Минимально допустимая теоретическая температура горения, °С ... " />
+            <marker date="1547989576780" expanded="true" signature="1486:1595" ph="/// Максимально допустимая теоретическая температура горения, °С ... " />
+            <marker date="1547989576780" expanded="true" signature="1656:1742" ph="/// РАсход газа. Его необходимо подбирать ... " />
+            <marker date="1547989576780" expanded="true" signature="1809:1919" ph="/// Изменение производства чугуна при изменении ПГ, т чуг/(м3 ПГ) ... " />
+            <marker date="1547989576780" expanded="true" signature="2004:2129" ph="/// Изменение производства чугуна при увеличении расхода кокса, т чуг/(кг кокса) ... " />
+            <marker date="1547989576780" expanded="true" signature="2206:2320" ph="/// Изменение температуры горения при увеличении расхода ПГ на 1 м3/ч ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C8E0940-87F1-4BFF-84AA-61D9BC24E22C/5d/7182ff2e/Report.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="452" column="14" selection-start-line="452" selection-start-column="8" selection-end-line="452" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimization/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4928">
+          <caret line="316" column="64" selection-start-line="316" selection-start-column="64" selection-end-line="316" selection-end-column="64" />
+          <folding>
+            <marker date="1548022560421" expanded="false" signature="6:186" ph="..." />
+            <marker date="1548022560421" expanded="true" signature="222:14210" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="269:14208" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="329:809" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="463:694" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="888:974" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="1011:1127" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="1166:1266" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="1324:7269" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="1387:2063" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="2130:2799" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="2866:3526" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="3593:4252" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="4319:4976" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="5043:5699" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="5766:6426" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="6481:7138" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="7196:7258" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="7355:14193" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="11830:12243" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="12503:12763" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="12945:13137" ph="{...}" />
+            <marker date="1548022560421" expanded="true" signature="14003:14142" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimization/Controllers/OptimizationController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <marker date="1548089460330" expanded="false" signature="6:225" ph="..." />
+            <marker date="1548089460330" expanded="true" signature="261:14082" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="316:14080" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="387:1014" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="521:752" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="868:972" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="1093:1377" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="1210:1302" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="1458:8151" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="5800:6213" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="6461:6721" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="6903:7095" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="7963:8102" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="8209:14073" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="8272:8932" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="8987:9657" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="9712:10373" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="10428:11087" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="11142:11801" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="11856:12514" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="12569:13229" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="13284:13942" ph="{...}" />
+            <marker date="1548089460330" expanded="true" signature="14000:14062" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
